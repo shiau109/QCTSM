@@ -1,0 +1,8 @@
+Dockerfile.dev
+Dockerfile.prod
+__pycache__
+*.pyc
+.venv
+.env
+.git
+data/
