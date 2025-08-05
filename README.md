@@ -1,4 +1,4 @@
-# 🧪 Qubit Web GUI
+# 🧪 QC test Monitor
 
 This project is a full-stack application that includes:
 - 📤 A React + Vite frontend for user interaction and data entry
@@ -29,7 +29,8 @@ npm -v
 
 ## 🚀 Getting Started
 1. Clone the Repository
-https://github.com/shiau109/scqweb
+https://github.com/shiau109/QCTSM
+
 
 2. Build and Start the App (Dockerized)
 bash

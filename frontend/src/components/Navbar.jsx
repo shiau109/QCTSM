@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            SCQWeb
+            QC-Test Space Monitor
           </span>
         </Link>
         <button
@@ -53,30 +53,7 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li>
-              <Link
-                to="/resonator"
-                className="block py-2 px-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Resonator
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/Wiring"
-                className="block py-2 px-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Wiring
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/formula"
-                className="block py-2 px-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Formula
-              </Link>
-            </li>
+            
           </ul>
         </div>
       </div>

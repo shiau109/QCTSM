@@ -1,8 +1,6 @@
-version: "3.9"
-
 services:
   frontend:
-    image: scqweb_frontend:latest
+    image: QCTSM_frontend:latest
     build:
       context: ./frontend
       dockerfile: Dockerfile.prod
@@ -16,12 +14,12 @@ services:
       retries: 3
 
   backend:
-    image: scqweb_backend:latest
+    image: QCTSM_backend:latest
     build:
       context: ./backend
       dockerfile: Dockerfile.prod
     ports:
-      - "8000:8000"
+      - "8010:8010"
     restart: always
     depends_on:
       frontend:

@@ -1,0 +1,136 @@
+2025-07-21 18:14:48,032 note  | 
+2025-07-21 18:14:48,033 note  | --- Qblox Configuration Manager version 0.2.0 ---
+2025-07-21 18:14:48,033 note  | 
+2025-07-21 18:14:48,033 note  | Trying to connect to "192.168.1.81"...
+2025-07-21 18:14:48,033 info  | Resolving device identifier "192.168.1.81"...
+2025-07-21 18:14:48,034 info  | "192.168.1.81" is a valid IP address; skipping name resolution.
+2025-07-21 18:14:48,035 info  | Trying to connect to application (port 5025)...
+2025-07-21 18:14:48,209 note  | "192.168.1.81" is reachable via 192.168.1.81:5025 using SCPI
+2025-07-21 18:14:48,209 info  |   Connecting to            : 192.168.1.81
+2025-07-21 18:14:48,209 info  |   Via protocol             : SCPI, via TCP port 5025
+2025-07-21 18:14:48,240 info  |   Configuration scope      : entire instrument
+2025-07-21 18:14:48,240 info  |   Server version           : 0.4.0
+2025-07-21 18:14:48,240 info  |   Client version           : 0.2.0
+2025-07-21 18:14:48,240 info  |   -------------------------:-------------------------
+2025-07-21 18:14:48,240 info  |   Device type              : qblox cluster_mm
+2025-07-21 18:14:48,240 info  |   Device name              : cluster-mm
+2025-07-21 18:14:48,240 info  |   Serial number            : 00015_2411_003
+2025-07-21 18:14:48,241 info  |   IP configuration         : 192.168.1.81/24
+2025-07-21 18:14:48,241 info  |   Submodule types          : cluster_qrm, cluster_qcm
+2025-07-21 18:14:48,241 info  |   Application version      : 0.10.0, built on 2024-12-19T23:09:20 from git hash 5948d50b
+2025-07-21 18:14:48,241 info  |   FPGA firmware version    : 0.10.0, built on 2024-12-13T23:09:35 from git hash 849d08f5
+2025-07-21 18:14:48,241 info  |   Kernel module version    : 0.10.0, built on 2024-12-19T23:09:20 from git hash 5948d50b
+2025-07-21 18:14:48,241 info  |   Config. manager version  : 0.4.0, built on 2024-12-19T23:09:20 from git hash 5948d50b
+2025-07-21 18:14:48,241 note  | 
+2025-07-21 18:14:48,241 note  | Nothing left to do.
+2025-07-21 18:14:48,241 info  | Closing all registered instruments
+2025-07-21 18:19:21,732 note  | 
+2025-07-21 18:19:21,778 note  | --- Qblox Configuration Manager version 0.2.0 ---
+2025-07-21 18:19:21,778 note  | 
+2025-07-21 18:19:21,778 note  | Parsing update file "D:\update.tar.gz"...
+2025-07-21 18:19:22,521 note  | Found update file for cluster_mm, cluster_qcm, cluster_qrm, cluster_qtm
+2025-07-21 18:19:22,521 info  |   Update file              : D:\update.tar.gz
+2025-07-21 18:19:22,521 info  |   File format              : multi
+2025-07-21 18:19:22,521 info  |   Minimum client version   : None
+2025-07-21 18:19:22,521 info  |   Query message            : None
+2025-07-21 18:19:22,521 info  |   Contains updates for     : 4 product(s)
+2025-07-21 18:19:22,521 info  |     Model                  : cluster_mm
+2025-07-21 18:19:22,521 info  |       Application version  : 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,521 info  |       FPGA firmware version: 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,521 info  |       Kernel module version: 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,521 info  |       Cfg. manager version : 0.5.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,521 info  |     Model                  : cluster_qcm
+2025-07-21 18:19:22,521 info  |       Application version  : 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,521 info  |       FPGA firmware version: 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,521 info  |       Kernel module version: 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,521 info  |       Cfg. manager version : 0.5.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,521 info  |     Model                  : cluster_qrm
+2025-07-21 18:19:22,521 info  |       Application version  : 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,521 info  |       FPGA firmware version: 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,523 info  |       Kernel module version: 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,523 info  |       Cfg. manager version : 0.5.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,523 info  |     Model                  : cluster_qtm
+2025-07-21 18:19:22,523 info  |       Application version  : 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,523 info  |       FPGA firmware version: 0.5.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,523 info  |       Kernel module version: 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,523 info  |       Cfg. manager version : 0.5.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:19:22,523 note  | 
+2025-07-21 18:19:22,523 note  | Trying to connect to "192.168.1.81"...
+2025-07-21 18:19:22,523 info  | Resolving device identifier "192.168.1.81"...
+2025-07-21 18:19:22,524 info  | "192.168.1.81" is a valid IP address; skipping name resolution.
+2025-07-21 18:19:22,524 info  | Trying to connect to application (port 5025)...
+2025-07-21 18:19:22,689 note  | "192.168.1.81" is reachable via 192.168.1.81:5025 using SCPI
+2025-07-21 18:19:22,689 info  |   Connecting to            : 192.168.1.81
+2025-07-21 18:19:22,689 info  |   Via protocol             : SCPI, via TCP port 5025
+2025-07-21 18:19:22,689 info  |   Configuration scope      : entire instrument
+2025-07-21 18:19:22,689 info  |   Server version           : 0.4.0
+2025-07-21 18:19:22,689 info  |   Client version           : 0.2.0
+2025-07-21 18:19:22,689 info  |   -------------------------:-------------------------
+2025-07-21 18:19:22,689 info  |   Device type              : qblox cluster_mm
+2025-07-21 18:19:22,689 info  |   Device name              : cluster-mm
+2025-07-21 18:19:22,689 info  |   Serial number            : 00015_2411_003
+2025-07-21 18:19:22,689 info  |   IP configuration         : 192.168.1.81/24
+2025-07-21 18:19:22,689 info  |   Submodule types          : cluster_qcm, cluster_qrm
+2025-07-21 18:19:22,689 info  |   Application version      : 0.10.0, built on 2024-12-19T23:09:20 from git hash 5948d50b
+2025-07-21 18:19:22,689 info  |   FPGA firmware version    : 0.10.0, built on 2024-12-13T23:09:35 from git hash 849d08f5
+2025-07-21 18:19:22,690 info  |   Kernel module version    : 0.10.0, built on 2024-12-19T23:09:20 from git hash 5948d50b
+2025-07-21 18:19:22,690 info  |   Config. manager version  : 0.4.0, built on 2024-12-19T23:09:20 from git hash 5948d50b
+2025-07-21 18:19:22,690 note  | 
+2025-07-21 18:19:22,690       | Operations to be performed:
+2025-07-21 18:19:22,690       |  - update('D:\\update.tar.gz', included_slots=None, excluded_slots=None)
+2025-07-21 18:19:22,690       |  - reboot()
+2025-07-21 18:19:22,691       | 
+2025-07-21 18:19:22,691       | On the following devices:
+2025-07-21 18:19:22,691       |  - qblox cluster_mm at address 192.168.1.81:5025 (whole instrument), with serial 00015_2411_003 and name cluster-mm
+2025-07-21 18:19:22,691       | 
+2025-07-21 18:19:22,691       | More information is available in the log file (cfg_man_client.log).
+2025-07-21 18:19:22,691       | 
+2025-07-21 18:19:22,691       | Do you want to continue? [Y/N]
+2025-07-21 18:19:31,969       | 
+2025-07-21 18:19:31,970 note  | Proceeding with qblox cluster_mm at address 192.168.1.81:5025 (whole instrument), with serial 00015_2411_003 and name cluster-mm...
+2025-07-21 18:19:32,019 note  | Calling update on 192.168.1.81:5025...
+2025-07-21 18:19:32,020 info  | Models In Cluster        : ['cluster_mm', 'cluster_qcm', 'cluster_qrm']
+2025-07-21 18:19:32,020 info  | Models In Update Package : ['cluster_mm', 'cluster_qcm', 'cluster_qrm', 'cluster_qtm']
+2025-07-21 18:19:32,020 info  | Multi-Slot Update
+2025-07-21 18:20:44,669 note  | Calling reboot on 192.168.1.81:5025...
+2025-07-21 18:20:44,669 note  | Done with 192.168.1.81:5025.
+2025-07-21 18:20:44,669 note  | 
+2025-07-21 18:20:44,670 note  | Completed successfully.
+2025-07-21 18:20:44,670 info  | Closing all registered instruments
+2025-07-21 18:21:17,238 note  | 
+2025-07-21 18:21:17,238 note  | --- Qblox Configuration Manager version 0.2.0 ---
+2025-07-21 18:21:17,239 note  | 
+2025-07-21 18:21:17,239 note  | Trying to connect to "192.168.1.81"...
+2025-07-21 18:21:17,239 info  | Resolving device identifier "192.168.1.81"...
+2025-07-21 18:21:17,239 info  | "192.168.1.81" is a valid IP address; skipping name resolution.
+2025-07-21 18:21:17,239 info  | Trying to connect to application (port 5025)...
+2025-07-21 18:21:18,241 info  | Failed to connect to application (timed out), falling back to cfg_man.
+2025-07-21 18:21:18,241 info  | Trying to connect to configuration manager (port 5026)...
+2025-07-21 18:21:21,248 ERROR | RuntimeError: Failed to connect to "192.168.1.81", determined to be at 192.168.1.81.
+2025-07-21 18:21:21,248 info  | Closing all registered instruments
+2025-07-21 18:23:16,684 note  | 
+2025-07-21 18:23:16,686 note  | --- Qblox Configuration Manager version 0.2.0 ---
+2025-07-21 18:23:16,686 note  | 
+2025-07-21 18:23:16,686 note  | Trying to connect to "192.168.1.81"...
+2025-07-21 18:23:16,686 info  | Resolving device identifier "192.168.1.81"...
+2025-07-21 18:23:16,688 info  | "192.168.1.81" is a valid IP address; skipping name resolution.
+2025-07-21 18:23:16,688 info  | Trying to connect to application (port 5025)...
+2025-07-21 18:23:16,894 note  | "192.168.1.81" is reachable via 192.168.1.81:5025 using SCPI
+2025-07-21 18:23:16,894 info  |   Connecting to            : 192.168.1.81
+2025-07-21 18:23:16,894 info  |   Via protocol             : SCPI, via TCP port 5025
+2025-07-21 18:23:16,894 info  |   Configuration scope      : entire instrument
+2025-07-21 18:23:16,894 info  |   Server version           : 0.5.0
+2025-07-21 18:23:16,894 info  |   Client version           : 0.2.0
+2025-07-21 18:23:16,895 info  |   -------------------------:-------------------------
+2025-07-21 18:23:16,895 info  |   Device type              : qblox cluster_mm
+2025-07-21 18:23:16,895 info  |   Device name              : cluster-mm
+2025-07-21 18:23:16,895 info  |   Serial number            : 00015_2411_003
+2025-07-21 18:23:16,895 info  |   IP configuration         : 192.168.1.81/24
+2025-07-21 18:23:16,895 info  |   Submodule types          : cluster_qrm, cluster_qcm
+2025-07-21 18:23:16,895 info  |   Application version      : 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:23:16,896 info  |   FPGA firmware version    : 0.11.0, built on 2025-03-05T18:35:36 from git hash 475c42a4
+2025-07-21 18:23:16,896 info  |   Kernel module version    : 0.11.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:23:16,896 info  |   Config. manager version  : 0.5.0, built on 2025-03-19T17:52:04 from git hash 8c778775
+2025-07-21 18:23:16,896 note  | 
+2025-07-21 18:23:16,896 note  | Nothing left to do.
+2025-07-21 18:23:16,896 info  | Closing all registered instruments

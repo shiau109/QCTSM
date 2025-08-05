@@ -3,10 +3,10 @@
 build: build-frontend build-backend
 
 build-frontend:
-	cd frontend && docker build -f Dockerfile.prod -t scqweb_frontend:latest .
+	cd frontend && docker build -f Dockerfile.prod -t QCTSM_frontend:latest .
 
 build-backend:
-	cd backend && docker build -f Dockerfile.prod -t scqweb_backend:latest .
+	cd backend && docker build -f Dockerfile.prod -t QCTSM_backend:latest .
 
 up:
 	docker-compose -f docker-compose.yml -f docker-compose.dev.yml up --build -d

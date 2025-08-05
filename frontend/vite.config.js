@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     host: true,
-    port: 5173
+    port: 8009, // Changed to match docker-compose.yml
   },
   // resolve: {
   //   alias: {
