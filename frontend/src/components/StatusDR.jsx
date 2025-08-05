@@ -1,4 +1,5 @@
 // src/components/StatusDR.jsx
+import { useNavigate } from 'react-router-dom'  // ← Add this at the top
 
 import React, { useState } from 'react'
 import TemperatureChart from './TemperatureChart'
@@ -6,29 +7,24 @@ import TemperatureChart from './TemperatureChart'
 const StatusDR = ({ dr, status = {} }) => {
   const name = dr?.name || 'Unknown'
 
-  const bftc = (dr.temperature_controller || []).find(
-    ctrl => ctrl.type === 'BFTC'
-  )
-  const bftcWebIp = bftc?.ip_web || ''
+  const bftcWebIp = dr?.temperature_controller?.ip_web || ''
+  const controlIp = dr?.control_unit?.ip || ''
 
-  const controlUnit = (dr.control_unit || [])[0]
-  const controlIp   = controlUnit?.ip || ''
-
-  const ledColor    = status.led_color   || 'bg-gray-300'
-  const statusText  = status.status_text || 'Loading...'
+  const ledColor   = status.led_color   || 'bg-gray-300'
+  const statusText = status.status_text || 'Loading...'
 
   const [expanded, setExpanded] = useState(false)
   const toggleExpand = () => setExpanded(!expanded)
 
   const [latestTime, setLatestTime] = useState(null)
   const [latestTemp, setLatestTemp] = useState(null)
+  const navigate = useNavigate()
 
-  // compute display string for latestTemp
   const latestDisplay =
     latestTemp == null
       ? ''
       : latestTemp > 0.1
-      ? `${latestTemp.toFixed(1)} K`     // one digit after decimal
+      ? `${latestTemp.toFixed(1)} K`
       : `${(latestTemp * 1000).toFixed(1)} mK`
 
   return (
@@ -71,6 +67,12 @@ const StatusDR = ({ dr, status = {} }) => {
                 BFTC
               </a>
             )}
+            <button
+              onClick={() => navigate(`/logs/${name}`)}
+              className="inline-block px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700"
+            >
+              Logs
+            </button>
           </div>
           <div className="text-sm text-gray-600">
             <p>Control IP: {controlIp}</p>
